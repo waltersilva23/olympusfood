@@ -26,14 +26,20 @@ html, body, main {
 .center {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
 /*LOGO*/
 .logo {
     margin-top: 20px;
-    background: lightblue;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .text-logo {
@@ -58,11 +64,8 @@ html, body, main {
 }
 
 #navbar a:hover {
-    color: #7a7a7a;
-}
-
-#navbar a:focus {
-    border-bottom: 1px solid #050505; /*Talvez remover*/
+    color: #050505;
+    border-bottom: 1px solid #050505;
 }
 
 .navbar-brand { 
@@ -90,10 +93,20 @@ html, body, main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
+    background-image: url("../img/background-home.jpg");
+    background-size: cover;
+    background-position: fixed; 
 }
+
 .circulo {
-    background: lightblue;
     border-radius: 50%;
     width: 100px;
     height: 100px;
 }
+
+.text-home {
+    text-align: center;
+    font-weight: 800;
+}
+
