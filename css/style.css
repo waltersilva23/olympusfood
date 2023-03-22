@@ -41,12 +41,14 @@ html, body, main {
     font-style: normal;
     font-weight: 700;
     font-size: 3.5em;
+    margin-bottom: -4px;
 }
 
 .borda{
-    margin-top: -22px;
+    display: flex;
+    margin:auto;
     border-bottom: 1px solid #050505;
-    width: 48%;
+    width: 310px;
 }
 
 /*NAVBAR*/
@@ -84,6 +86,11 @@ html, body, main {
 }
 
 /*HOME*/
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .circulo {
     background: lightblue;
     border-radius: 50%;
