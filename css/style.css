@@ -1,0 +1,59 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-primary-color {
+    background-color: #fff;
+}
+
+.bg-secondary-color {
+    background-color: #CF3A19;
+}
+
+.bg-tertiary-color {
+    background-color: #49B417;
+}
+
+html, body {
+    height: 100%;
+}
+
+.bloco {
+    min-height: 100%;
+    padding-top: 70px;
+}
+
+/*NAVBAR*/
+
+#navbar {
+    border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar a:hover {
+    color: #7a7a7a;
+}
+
+#navbar a:focus {
+    border-bottom: 1px solid #050505; /*Talvez remover*/
+}
+
+.navbar-brand { 
+    display: flex;  /*Talvez remover*/
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1,5em;
+    margin-left: .5;
+}
+
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+
