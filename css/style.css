@@ -87,7 +87,7 @@ html, body, main {
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    background-image: url("../img/background-home.jpg");
+    background-image: url("../img/teste1.png");
     background-size: cover;
     background-position: fixed;
     margin: auto;
@@ -106,9 +106,13 @@ html, body, main {
     height: 50px;
 }
 
-
 .text-home {
     text-align: center;
     font-weight: 700;
 }
 
+.margin-home {
+    margin-top: 10%;
+}
+
+.teste {}

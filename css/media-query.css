@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
     .text-logo {
         font-size: 2em;
     }
@@ -10,13 +10,30 @@
     .text-home {
         font-size: 0.8em;
     }
-    
+
+    .margin-home {
+        margin-top: 0%;
+    }
 }
 
-@media screen and (min-width: 601px) {
-   
+@media screen and (min-width: 621px ) {
+    
+    .margin-home {
+        margin-top: 5%;
+    }
+    
+    .circulo {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    }
 }
 
 @media screen and (min-width: 993px) {
-    
+    .circulo {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
 }
+
