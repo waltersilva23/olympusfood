@@ -100,12 +100,6 @@ html, body, main {
     width: 45%;
 }
 
-.circulo {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-}
-
 .text-home {
     text-align: center;
     font-weight: 700;
@@ -115,4 +109,6 @@ html, body, main {
     margin-top: 10%;
 }
 
-.teste {}
+.icons {
+    font-size: 30px;
+}

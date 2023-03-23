@@ -22,18 +22,14 @@
         margin-top: 5%;
     }
     
-    .circulo {
-        border-radius: 50%;
-        width: 70px;
-        height: 70px;
+    .icons {
+        font-size: 50px;
     }
 }
 
 @media screen and (min-width: 993px) {
-    .circulo {
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
+    .icons {
+        font-size: 65px;
     }
 }
 
