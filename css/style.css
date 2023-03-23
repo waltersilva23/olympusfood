@@ -81,12 +81,17 @@ html, body, main {
     display: flex;
     margin:auto;
     border-bottom: 1px solid #050505;
-    width: 45%;
+    width: 55%;
 }
 
 .text-home {
     text-align: center;
-    font-weight: 700;
+    font-weight: 800;
+}
+
+.text {
+    font-family: 'Quattrocento', 'San-serif';
+    font-weight: 400;
 }
 
 .margin-home {
@@ -95,6 +100,10 @@ html, body, main {
 
 .icons {
     font-size: 30px;
+}
+
+.btn-home {
+    font-weight: 800;
 }
 
 /*LOGO*/
@@ -106,9 +115,9 @@ html, body, main {
 }
 
 .text-logo {
+    font-family: 'Quattrocento', 'san-serif';
     text-align: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.5em;   
+    font-weight: 400;
+    font-size: 2em;   
     margin-bottom: -4px;
 }
