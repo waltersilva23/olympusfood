@@ -36,25 +36,18 @@ html, body, main {
 
 /*LOGO*/
 .logo {
-    margin-top: 20px;
+    margin-top: 0.5%;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 33%;
+    height: 33%;
 }
 
 .text-logo {
     text-align: center;
     font-style: normal;
     font-weight: 700;
-    font-size: 3.5em;
+    font-size: 3em;
     margin-bottom: -4px;
-}
-
-.borda{
-    display: flex;
-    margin:auto;
-    border-bottom: 1px solid #050505;
-    width: 310px;
 }
 
 /*NAVBAR*/
@@ -96,17 +89,26 @@ html, body, main {
     position: relative;
     background-image: url("../img/background-home.jpg");
     background-size: cover;
-    background-position: fixed; 
+    background-position: fixed;
+    margin: auto;
+}
+
+.borda{
+    display: flex;
+    margin:auto;
+    border-bottom: 1px solid #050505;
+    width: 45%;
 }
 
 .circulo {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
+
 
 .text-home {
     text-align: center;
-    font-weight: 800;
+    font-weight: 700;
 }
 
