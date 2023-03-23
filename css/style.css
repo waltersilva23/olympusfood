@@ -34,22 +34,6 @@ html, body, main {
     flex-direction: column;
 }
 
-/*LOGO*/
-.logo {
-    margin-top: 0.5%;
-    border-radius: 50%;
-    width: 33%;
-    height: 33%;
-}
-
-.text-logo {
-    text-align: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3em;
-    margin-bottom: -4px;
-}
-
 /*NAVBAR*/
 
 #navbar {
@@ -111,4 +95,20 @@ html, body, main {
 
 .icons {
     font-size: 30px;
+}
+
+/*LOGO*/
+.logo {
+    margin-top: 0.5%;
+    border-radius: 50%;
+    width: 33%;
+    height: 33%;
+}
+
+.text-logo {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5em;   
+    margin-bottom: -4px;
 }
