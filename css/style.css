@@ -74,7 +74,6 @@ html, body, main {
     background-image: url("../img/teste1.png");
     background-size: cover;
     background-position: fixed;
-    margin: auto;
 }
 
 .borda{
@@ -95,7 +94,7 @@ html, body, main {
 }
 
 .margin-home {
-    margin-top: 10%;
+    margin-top: auto;
 }
 
 .icons {
@@ -108,9 +107,8 @@ html, body, main {
 
 /*LOGO*/
 .logo {
-    margin-top: 0.5%;
     border-radius: 50%;
-    width: 33%;
+    width: 32%;
     height: 33%;
 }
 

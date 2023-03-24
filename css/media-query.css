@@ -8,10 +8,6 @@
         font-size: 0.8em;
     }
 
-    .margin-home {
-        margin-top: 0%;
-    }
-
 }
 
 @media screen and (min-width: 421px) {
@@ -26,16 +22,12 @@
 
 @media screen and (min-width: 621px ) {
     
-    .margin-home {
-        margin-top: 5%;
-    }
-    
     .icons {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .text-logo {
-        font-size: 3.5em;
+        font-size: 3.1em;
     }
 
     .borda{
@@ -46,15 +38,16 @@
 
 @media screen and (min-width: 993px) {
     .icons {
-        font-size: 65px;
+        font-size: 55px;
     }
 
     .text-logo {
-        font-size: 4em;
+        font-size: 3.8em;
     }
 
     .borda{
         width:60%;
     }
 }
+
 
