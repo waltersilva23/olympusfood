@@ -86,15 +86,17 @@ html, body, main {
 .text-home {
     text-align: center;
     font-weight: 600;
+    font-size: 0.8em;
 }
 
 .text {
     font-family: 'Quattrocento', 'San-serif';
     font-weight: 400;
+    font-size: 0.85em;
 }
 
 .margin-home {
-    margin-top: auto;
+    margin-top: 10%;
 }
 
 .icons {
@@ -119,3 +121,34 @@ html, body, main {
     font-size: 2em;   
     margin-bottom: -4px;
 }
+
+/*DESCRIÇÃO*/
+.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo-descricao {
+    font-family: 'Quattrocento';
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.text-descricao {
+    font-weight: 400;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 25px;
+    margin: 0 10px 0 10px;
+}
+
+.destaque-descricao {
+    font-weight: 300;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 0.7em;
+    margin: 1% 10% 1% 10%;
+}
+

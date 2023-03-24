@@ -1,15 +1,3 @@
-@media screen and (max-width: 320px) {
-
-    .text {
-        font-size: 0.85em;
-    }
-
-    .text-home {
-        font-size: 0.8em;
-    }
-
-}
-
 @media screen and (min-width: 421px) {
     .text-logo {
         font-size: 2.6em;
@@ -34,6 +22,7 @@
         width:50%;
     }
 
+
 }
 
 @media screen and (min-width: 993px) {
@@ -47,6 +36,10 @@
 
     .borda{
         width:60%;
+    }
+
+    .margin-descricao {
+        margin-top: 10%;
     }
 }
 
