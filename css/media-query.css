@@ -39,18 +39,17 @@
     }
 
     .margin-descricao {
-        margin-top: 15%;
+        margin-top: 12%;
     }
 
     .titulo-descricao {
-        font-size: 2.5em;
-        margin-top: 20px;
+        font-size: 2.5em;        
     }
     
     .text-descricao {
         font-size: 1em;
         line-height: 25px;
-        margin: 2% 7% 2% 7%;
+        margin: 10% 7% 10% 7%;
     }
     
     .destaque-descricao {
