@@ -153,3 +153,23 @@ html, body, main {
     margin: 2% 10% 2% 10%;
 }
 
+/*FUNCIONALIDADES*/
+.funcionalidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo-funcionalidades {
+    font-family: 'Quattrocento';
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-funcionalidades {
+    text-align: justify;
+    font-weight: 400;
+    margin: 20px 10px 20px 10px;
+}
