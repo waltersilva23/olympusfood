@@ -173,3 +173,16 @@ html, body, main {
     font-weight: 400;
     margin: 20px 10px 20px 10px;
 }
+
+/*DIFERENCIAIS*/
+.diferenciais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+}
