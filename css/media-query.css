@@ -1,13 +1,8 @@
 @media screen and (min-width: 390px) {
-    .margin-home {
-        margin-top: 25%;
-    }
+
 }
 
 @media screen and (min-width: 421px) {
-    .bloco {
-        padding-top: 50px;
-    }
     
     .text-logo {
         font-size: 2.6em;
@@ -19,7 +14,6 @@
 }
 
 @media screen and (min-width: 621px ) {
-    
     
     .icons {
         font-size: 45px;
@@ -33,20 +27,10 @@
         width:50%;
     }
 
-    .margin-descricao {
-        margin: auto 3%; 
-    }
-
-    .margin-funcionalidades {
-        margin-top: 3%;
-    }
-
 }
 
 @media screen and (min-width: 993px) {
-    .bloco {
-        padding-top: 50px;
-    }
+    
 
     .icons {
         font-size: 55px;
@@ -58,14 +42,6 @@
 
     .borda{
         width:60%;
-    }
-
-    .margin-home {
-        margin-top: 8%;
-    }
-
-    .margin-descricao {
-        margin: auto 3%; 
     }
 
     .titulo-descricao {
@@ -84,18 +60,8 @@
         margin: 2% 10% 2% 10%;
     }
 
-    .margin-funcionalidades {
-        margin-top: 2%;
-    }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1350px) {
     
-    .margin-home {
-        margin-top: 5%;
-    }
-    
-    .margin-descricao {
-        margin: auto 3%; 
-    }
 }
