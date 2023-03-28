@@ -99,10 +99,6 @@ html, body, main {
     font-size: 0.85em;
 }
 
-.margin-home {
-    margin: auto 3%;
-}
-
 .icons {
     font-size: 30px;
 }
@@ -157,10 +153,6 @@ html, body, main {
     margin: 2% 10% 2% 10%;
 }
 
-.margin-descricao {
-    margin: auto 3%;
-}
-
 /*FUNCIONALIDADES*/
 .funcionalidades {
     display: flex;
@@ -180,8 +172,4 @@ html, body, main {
     text-align: justify;
     font-weight: 400;
     margin: 20px 10px 20px 10px;
-}
-
-.margin-funcionalidades {
-    margin: auto 3%;
 }
