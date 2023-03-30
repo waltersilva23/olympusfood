@@ -35,7 +35,9 @@ html, body, main {
 }
 
 .row {
-    --bs-gutter-x: 0rem;  /*Tirando a barra de rolagem*/
+    /*--bs-gutter-x: 0rem; Tirando a barra de rolagem*/
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /*NAVBAR*/
