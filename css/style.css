@@ -204,102 +204,57 @@ html, body, main {
 }
 
 /*AVALIAÇÕES*/
-h1 {
-    text-align: center;
-    margin: 1em 0;
-    font-family: sans-serif;
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
   
-  .container2 {
+  .slider-container h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .testimonial-container {
     position: relative;
-    padding: 15px;
-    max-width: 640px;
+    overflow: hidden;
+    width: 80%;
     margin: 0 auto;
   }
-
-.gallery-wrapper {
-    overflow-x: auto;
-  }
   
-  .arrow-left,
-  .arrow-right {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: auto;
-    bottom: 0;
-    font-size: 20px;
-    line-height: 250px;
-    width: 40px;
-    color: #fff;
-    transition: all 600ms ease-in-out;
-    background: linear-gradient(to left, transparent 0%, black 200%);
-    opacity: 0.1;
-    cursor: pointer;
-    border: none;
-  }
-  
-  .arrow-left:hover,
-  .arrow-right:hover {
-    opacity: 1;
-  }
-  
-  .arrow-right {
-    right: 0;
-    left: auto;
-    text-align: right;
-    background: linear-gradient(to right, transparent 0%, black 200%);
-  }
-  
-  .gallery {
+  .testimonial-wrapper {
     display: flex;
-    flex-flow: row nowrap;
-    gap: 15px;
+    transition: transform 0.5s ease;
   }
   
-  .item {
-    width: 250px;
-    height: 250px;
-    flex-shrink: 0;
-    transition: all 600ms ease-in-out;
-    opacity: 0.5;
+  .testimonial-slide {
+    flex: 0 0 100%;
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
   }
   
-  .current-item {
-    opacity: 1;
+  .testimonial-slide img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
   }
   
-  /* This is from w3schools */
-  /* 
-  https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
-  /* Hide scrollbar for Chrome, Safari and Opera */
-  .gallery-wrapper::-webkit-scrollbar {
-    display: none;
+  .testimonial-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
   }
   
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .gallery-wrapper {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
-  
-  .cyan {
-    background: cyan;
-  }
-  
-  .deeppink {
-    background: deeppink;
-  }
-  
-  .turquoise {
-    background: turquoise;
-  }
-  
-  .darkblue {
-    background: darkblue;
-  }
-  
-  .purple {
-    background: purple;
+  .testimonial-control {
+    background: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
   }
   
