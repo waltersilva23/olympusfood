@@ -182,30 +182,42 @@
         <!--AVALIAÇÕES-->
         <section class="avaliacoes bloco" id="avaliacoes">
             <h1>Depoimentos</h1>
-            <div class="slider-container">
-                
-                <div class="testimonial-container">
+            <div class="container">
+                <div class="testimonial-slider">
+                    <div class="slider-btn next slider-btn-left"></div>
                     <div class="testimonial-wrapper">
-                        <div class="testimonial-slide">
-                            <img src="https://placehold.it/100x100" alt="Foto do cliente">
-                            <h3>Nome do cliente</h3>
-                            <p>"Depoimento do cliente 1."</p>
-                        </div>
-                            <div class="testimonial-slide">
-                            <img src="https://placehold.it/100x100" alt="Foto do cliente">
-                            <h3>Nome do cliente</h3>
-                            <p>"Depoimento do cliente 2."</p>
-                        </div>
-                        <div class="testimonial-slide">
-                            <img src="https://placehold.it/100x100" alt="Foto do cliente">
-                            <h3>Nome do cliente</h3>
-                            <p>"Depoimento do cliente 3."</p>
-                        </div>
+                      <div class="testimonial-slide">
+                        <img src="https://placehold.it/100x100" alt="Foto do cliente">
+                        <p>Depoimento 1</p>
+                        <h3>Autor 1</h3>
+                      </div>
+                      <div class="testimonial-slide">
+                        <p>Depoimento 2</p>
+                        <h3>Autor 2</h3>
+                      </div>
+                      <div class="testimonial-slide">
+                        <p>Depoimento 3</p>
+                        <h3>Autor 3</h3>
+                      </div>
+                      <div class="testimonial-slide">
+                        <p>Depoimento 4</p>
+                        <h3>Autor 4</h3>
+                      </div>
+                      <div class="testimonial-slide">
+                        <p>Depoimento 5</p>
+                        <h3>Autor 5</h3>
+                      </div>
+                      <div class="testimonial-slide">
+                        <p>Depoimento 6</p>
+                        <h3>Autor 6</h3>
+                      </div>
+                      <div class="testimonial-slide">
+                        <p>Depoimento 7</p>
+                        <h3>Autor 7</h3>
+                      </div>
                     </div>
-                    <div class="testimonial-controls">
-                        <button class="testimonial-control testimonial-prev">&lt;</button>
-                        <button class="testimonial-control testimonial-next">&gt;</button>
-                    </div>
+                    <div class="slider-btn slider-btn-right"></div>
+                  </div>
                 </div>
             </div>
         </section>
@@ -217,33 +229,40 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!--Carros-->
     <script> 
-        const testimonialWrapper = document.querySelector('.testimonial-wrapper');
-        const testimonialPrev = document.querySelector('.testimonial-prev');
-        const testimonialNext = document.querySelector('.testimonial-next');
+        const slider = document.querySelector('.testimonial-slider');
+        const sliderWrapper = slider.querySelector('.testimonial-wrapper');
+        const slides = slider.querySelectorAll('.testimonial-slide');
+        const slideWidth = slides[0].offsetWidth + 50;
+        const slidesCount = slides.length;
 
-        let slideIndex = 0;
+        let currentSlide = 0;
 
-        function moveSlide() {
-            testimonialWrapper.style.transform = `translateX(-${slideIndex * 100}%)`;
-        }
+        sliderWrapper.style.width = `${slideWidth * slidesCount}px`;
 
-        testimonialPrev.addEventListener('click', () => {
-            if (slideIndex === 0) {
-                slideIndex = testimonialWrapper.children.length - 1;
+        const prevSlide = () => {
+            if (currentSlide === 0) {
+                currentSlide = slidesCount - 1;
             } else {
-                slideIndex--;
+                currentSlide--;
             }
-            moveSlide();
-        });
+            sliderWrapper.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
+        };
 
-        testimonialNext.addEventListener('click', () => {
-            if (slideIndex === testimonialWrapper.children.length - 1) {
-                slideIndex = 0;
+        const nextSlide = () => {
+            if (currentSlide === slidesCount - 1) {
+                currentSlide = 0;
             } else {
-                slideIndex++;
+                currentSlide++;
             }
-            moveSlide();
-        });
+            sliderWrapper.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
+            };
+
+        const prevBtn = slider.querySelector('.slider-btn-left');
+        const nextBtn = slider.querySelector('.slider-btn-right');
+
+        prevBtn.addEventListener('click', prevSlide);
+        nextBtn.addEventListener('click', nextSlide);
+
     </script>
 
 </body>
